@@ -22,6 +22,10 @@ export default {
           DEFAULT: "#2447E0",
           light: "#5170F2",
         },
+        lime: {
+          DEFAULT: "#D7F238",
+          dark: "#B9D420",
+        },
       },
       fontFamily: {
         display: ["'Fraunces'", "serif"],

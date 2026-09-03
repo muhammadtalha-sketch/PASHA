@@ -74,18 +74,6 @@ export default function Contact() {
           </div>
         </Reveal>
       </div>
-
-      <div className="mt-16 border-t border-ink/15 pt-8">
-        <div className="mx-auto flex max-w-wrap flex-col gap-2 px-6 text-[13.5px] text-ink/70 lg:px-10">
-          <p>
-            <span className="font-semibold text-ink">{candidate.name}</span>
-            {candidate.title ? ` · ${candidate.title}` : ""}
-          </p>
-          {contact.footerNote && (
-            <p className="max-w-2xl text-ink/55">{contact.footerNote}</p>
-          )}
-        </div>
-      </div>
     </section>
   );
 }

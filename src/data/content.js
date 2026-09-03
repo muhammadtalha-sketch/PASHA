@@ -36,6 +36,11 @@ export const candidate = {
   officialUrl: "https://www.pasha.org.pk/",
 };
 
+export const stickyBar = {
+  polling: "Polling: Thu 17 Sep 2026 · 09:00–17:00",
+  requirement: "In person only · Original CNIC required",
+};
+
 export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Focus", href: "#focus" },
@@ -57,7 +62,7 @@ export const hero = {
     heading: "Campaign snapshot",
     company: "Ingenious Concepts",
     seat: candidate.seatLabel,
-    polling: "To confirm — see official notice",
+    polling: "Thu 17 Sep 2026 · 09:00–17:00",
   },
   ticker: [
     "Founder & CEO, Ingenious Concepts",

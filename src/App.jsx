@@ -1,3 +1,4 @@
+import StickyBar from "./components/StickyBar";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -13,7 +14,10 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="overflow-x-hidden">
-      <Navbar />
+      <div className="sticky top-0 z-50">
+        <StickyBar />
+        <Navbar />
+      </div>
       <main id="main-content">
         <Hero />
         <About />
