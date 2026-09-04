@@ -39,7 +39,7 @@ export default function Navbar() {
 
         <a
           href="#vote"
-          className="hidden rounded-sm bg-ink px-5 py-2.5 text-[14px] font-medium text-paper transition-colors hover:bg-signal md:inline-block"
+          className="hidden rounded-sm bg-brass px-5 py-2.5 text-[14px] font-medium text-ink transition-colors hover:bg-brass-light md:inline-block"
         >
           How to Vote
         </a>
@@ -84,7 +84,7 @@ export default function Navbar() {
             <a
               href="#vote"
               onClick={() => setOpen(false)}
-              className="mt-3 rounded-sm bg-ink px-5 py-3 text-center text-[15px] font-medium text-paper"
+              className="mt-3 rounded-sm bg-brass px-5 py-3 text-center text-[15px] font-medium text-ink"
             >
               How to Vote
             </a>

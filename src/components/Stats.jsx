@@ -3,7 +3,7 @@ import { stats } from "../data/content";
 
 export default function Stats() {
   return (
-    <section className="bg-ink py-20 text-paper">
+    <section className="bg-ink py-24 text-paper lg:py-32">
       <div className="mx-auto max-w-wrap px-6 lg:px-10">
         <Reveal className="grid grid-cols-2 gap-x-8 gap-y-12 lg:grid-cols-4">
           {stats.items.map((s) => (

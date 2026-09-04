@@ -35,18 +35,18 @@ export default function Contact() {
   ].filter(Boolean);
 
   return (
-    <section className="bg-lime py-24 text-ink lg:py-32">
+    <section className="bg-ink py-24 text-paper lg:py-32">
       <div className="mx-auto max-w-wrap px-6 lg:px-10">
         <Reveal className="grid grid-cols-1 gap-14 lg:grid-cols-[1.15fr_1fr] lg:items-center">
           <div>
-            <p className="flex items-center gap-2 text-[13px] font-medium uppercase tracking-[0.14em] text-ink/70">
-              <span className="h-px w-5 bg-ink/50" />
+            <p className="flex items-center gap-2 text-[13px] font-medium uppercase tracking-[0.14em] text-paper/60">
+              <span className="h-px w-5 bg-paper/40" />
               {contact.kicker}
             </p>
-            <h2 className="mt-5 font-display text-[40px] font-semibold leading-[1.05] sm:text-[52px]">
+            <h2 className="mt-5 font-display text-[40px] font-semibold leading-[1.05] text-paper sm:text-[52px]">
               {contact.heading}
             </h2>
-            <p className="mt-6 max-w-md text-[16px] leading-relaxed text-ink/70">
+            <p className="mt-6 max-w-md text-[16px] leading-relaxed text-paper/65">
               {contact.body}
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function Contact() {
                 href={link.href}
                 target={link.external ? "_blank" : undefined}
                 rel={link.external ? "noreferrer" : undefined}
-                className="group flex items-center justify-between rounded-2xl bg-ink px-6 py-5 text-paper transition-colors hover:bg-ink-soft"
+                className="group flex items-center justify-between rounded-sm border border-paper/15 px-6 py-5 text-paper transition-colors hover:border-brass/40 hover:bg-paper/5"
               >
                 <span className="flex items-center gap-1.5 text-[16px] font-semibold">
                   {link.label}

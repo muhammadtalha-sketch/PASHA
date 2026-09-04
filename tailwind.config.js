@@ -18,14 +18,6 @@ export default {
           light: "#C7A363",
           dark: "#7C5E2C",
         },
-        signal: {
-          DEFAULT: "#2447E0",
-          light: "#5170F2",
-        },
-        lime: {
-          DEFAULT: "#D7F238",
-          dark: "#B9D420",
-        },
       },
       fontFamily: {
         display: ["'Fraunces'", "serif"],

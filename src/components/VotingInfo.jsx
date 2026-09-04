@@ -16,7 +16,7 @@ export default function VotingInfo() {
               href={candidate.officialUrl}
               target="_blank"
               rel="noreferrer"
-              className="text-signal underline underline-offset-2"
+              className="text-brass-dark underline underline-offset-2"
             >
               pasha.org.pk
             </a>
